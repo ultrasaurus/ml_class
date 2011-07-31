@@ -8,7 +8,9 @@ Install
 
 * JSONView Chrome extension
 * Python (2.5, 2.6 or 2.7), to check your version:
+
     python --version
+
 * NLTK
 * Numpy
 * pycluster
@@ -31,5 +33,5 @@ Register for an API key at http://developer.nytimes.com/apps/register and select
 example command-line:
 curl "http://api.nytimes.com/svc/search/v1/article?query=jazz&api-key=<insert you key here>"
 
-
+    python nytimes_pull.py
 
